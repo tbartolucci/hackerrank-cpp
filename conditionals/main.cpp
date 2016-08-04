@@ -1,3 +1,6 @@
+/**
+ * https://www.hackerrank.com/challenges/c-tutorial-conditional-if-else
+ */
 #include <stdlib.h>
 #include <stdio.h>
 
