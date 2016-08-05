@@ -5,7 +5,14 @@
 #include <stdio.h>
 
 void update(int *a,int *b) {
-    // Complete this function
+    int tmpA = (*a) + (*b);
+    int tmpB = (*a) - (*b);
+    (*a) = tmpA;
+
+    if( tmpB < 0 ){
+    	tmpB *= -1;
+    }
+    (*b) = tmpB;
 }
 
 int main() {
